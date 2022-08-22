@@ -1,0 +1,12 @@
+.connection_loader_div {
+    width:100vw;
+    height: 100vh;
+ }
+
+.connection_loader_img {
+    width: 100%;
+    max-width:100%;
+    height:auto;
+    max-height:100%;
+    height: 100%;
+ }

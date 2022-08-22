@@ -1,0 +1,14 @@
+.shadow_mask, .shadow_mask_min {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    z-index: 30;
+    opacity: .4;
+}
+
+.shadow_mask_min {
+    width: calc(100vw - 1vw);
+}

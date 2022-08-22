@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+@font-face {
+    font-family: "PoppinsBold";
+    src: local("PoppinsBold"),
+     url("./fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: "PoppinsMedium";
+    src: local("PoppinsMedium"),
+     url("./fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "PoppinsLight";
+    src: local("PoppinsLight"),
+     url("./fonts/Poppins/Poppins-Light.ttf") format("truetype");
+    font-weight: lighter;
+  }

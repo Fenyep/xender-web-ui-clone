@@ -1,0 +1,15 @@
+.connection_warning_container {
+    position: absolute;
+    color: white;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 7.5vh;
+    background: var(--warning-background-color);
+    font-family: "PoppinsMedium";
+    font-size: large;
+    z-index: 2;
+}
+

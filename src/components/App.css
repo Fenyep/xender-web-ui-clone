@@ -1,0 +1,22 @@
+
+/* Constants sections */
+:root { 
+  --menu-background-color: #191818;
+  --header-icon-primary-color: #828282;
+  --header-border-color: #E6E6E6;
+  --warning-background-color: #F0C00A;
+  --green-color: #5BAF2A;
+}
+
+/* Fonts Section */
+.font-face-pb {
+  font-family: "PoppinsBold";
+}
+
+.font-face-pm {
+  font-family: "PoppinsMedium";
+}
+
+.font-face-pl {
+  font-family: "PoppinsLight";
+}

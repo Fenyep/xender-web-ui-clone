@@ -1,0 +1,1 @@
+The purpose of this folder, is to store the layouts available to the whole project like header, footer, siderbar codes and thus can call them.

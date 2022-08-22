@@ -1,0 +1,12 @@
+.menu_container {
+    width: 8vw;
+    height: 100vh;
+    background: var(--menu-background-color);
+}
+
+.menu_nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}

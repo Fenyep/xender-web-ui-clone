@@ -1,0 +1,1 @@
+The purpose of this folder is to declare the various routes pages files of the project. A page can contain a subfolder. Each page has it's state. It usually consists of various components grouped.

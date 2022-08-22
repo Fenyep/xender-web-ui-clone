@@ -1,0 +1,39 @@
+.menu_item {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.menu_item:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.menu_item_tooltip {
+    position: absolute; 
+    top: 0;
+    left: 100%; 
+    width: "auto"; 
+    height: 68px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-family: "PoppinsLight";
+    background: var(--menu-background-color); 
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 600ms ease, opacity 600ms ease;
+    z-index: 20;
+}
+
+.menu_item:hover > .menu_item_tooltip {
+    transform: translateX(0%);
+    opacity: 1;
+}

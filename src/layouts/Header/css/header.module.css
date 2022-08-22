@@ -1,0 +1,16 @@
+.header_container {
+    width: calc(100vw - 4vw);
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 3px solid var(--header-border-color);
+}
+
+.header_rightSide_icons_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+}
