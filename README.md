@@ -4,11 +4,20 @@ This is a handmade xender web interface clone on it's initial version 1.0. The p
 
 ## How to run the app ?
 
-* The first step it to clone the repository using the command *git clone respository_url_here*
+```bash
+# clone the repository
+$ git clone https://github.com/Fenyep/xender-web-ui-clone.git
 
-* The second step is to install the project dependencies using the command *npm install*
+# install the project dependencies
+$ npm install
 
-* And finally now we can tun the app using the command *npm start*
+# run the app
+$ npm start
+```
+
+## Test
+
+You can easily test the app here : [xender web ui clone](der-web-ui-clone.vercel.app)
 
 ### Note : 
 
