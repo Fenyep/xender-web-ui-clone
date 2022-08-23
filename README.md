@@ -21,8 +21,8 @@ You can easily test the app here : [xender web ui clone](der-web-ui-clone.vercel
 
 ### Note : 
 
-- 1) The project is to be tested on desktop platforms because it is not yet responsive.
+- The project is to be tested on desktop platforms because it is not yet responsive.
 
-- 2) Only the Ui has been cloned, not the functionnalities
+- Only the Ui has been cloned, not the functionnalities
 
 ## Hope this gives you a little fun!!! :)
