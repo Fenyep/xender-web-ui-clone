@@ -10,6 +10,6 @@
     background: var(--warning-background-color);
     font-family: "PoppinsMedium";
     font-size: large;
-    z-index: 2;
+    z-index: 40;
 }
 

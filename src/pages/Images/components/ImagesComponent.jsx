@@ -39,7 +39,7 @@ const ImagesComponent = ({ displayMode, isClock, displayByFolder }) => {
                     { images.map((folder) => (
                       folder.images.map((imageByDate) => (
                         imageByDate.images.map((image) => (
-                          <div className={`h-60 border group relative`}> 
+                          <div className={`h-60 overflow-hidden border group relative`}> 
 
                             <div className={`hidden active:bg-green-500 group-hover:block z-10 w-10 h-10 rounded-md absolute top-3 left-3 bg-black bg-opacity-50`}>
                               <span className='hover:cursor-pointer pt-2 flex justify-center items-center'>
@@ -58,7 +58,7 @@ const ImagesComponent = ({ displayMode, isClock, displayByFolder }) => {
                                 </span>
                             </div>
 
-                            <img src={image} className={`object-cover hover:scale-105 transition-all`} alt="" />
+                            <img src={image} className={`object-cover hover:scale-110 transition-all`} alt="" />
                           </div>
                         ))
                       ))
@@ -103,7 +103,7 @@ const ImagesComponent = ({ displayMode, isClock, displayByFolder }) => {
                           </div>
                           <div className={`p-2 grid grid-cols-5 gap-1`}>
                             {subDate.images.map((image) => (
-                              <div className={`h-60 border group relative`}> 
+                              <div className={`h-60 overflow-hidden border group relative`}> 
                                 <div className={`hidden active:bg-green-500 group-hover:block z-10 w-10 h-10 rounded-md absolute top-3 left-3 bg-black bg-opacity-50`}>
                                   <span className='hover:cursor-pointer pt-2 flex justify-center items-center'>
                                     <AiOutlineCheck size={25} color='white' />
@@ -120,7 +120,7 @@ const ImagesComponent = ({ displayMode, isClock, displayByFolder }) => {
                                       </span>
                                     </span>
                                 </div>
-                                <img src={image} className={`object-cover hover:scale-105 transition-all`} alt="" />
+                                <img src={image} className={`object-cover hover:scale-110 transition-all`} alt="" />
                               </div>
                             ))}
                           </div>
@@ -138,7 +138,7 @@ const ImagesComponent = ({ displayMode, isClock, displayByFolder }) => {
                           folder.images.map((imageByDate) => (
                             imageByDate.date === timestamp ? 
                               imageByDate.images.map((image, index) => (
-                                <div className={`h-60 border group relative`}>
+                                <div className={`h-60 overflow-hidden border group relative`}>
 
                                   <div className={`hidden active:bg-green-500 group-hover:block z-10 w-10 h-10 rounded-md absolute top-3 left-3 bg-black bg-opacity-50`}>
                                     <span className='hover:cursor-pointer pt-2 flex justify-center items-center'>
@@ -158,7 +158,7 @@ const ImagesComponent = ({ displayMode, isClock, displayByFolder }) => {
                                   </div>
                                   <img 
                                     src={image} 
-                                    className={`object-cover hover:scale-105 transition-all`} 
+                                    className={`object-cover hover:scale-110 transition-all`} 
                                     alt="" 
                                   />
                                 </div>

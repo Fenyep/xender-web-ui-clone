@@ -19,7 +19,7 @@ const Layout = () => {
 
   useEffect(() => {
     navigate("/", { replace: true })
-  }, [])
+  }, []);
 
   const { showMask } = useContext(MaskContext);
   const { showXenderModal } = useContext(XenderModalContext);
