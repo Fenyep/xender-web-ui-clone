@@ -17,7 +17,7 @@ $ npm start
 
 ## Test
 
-You can easily test the app here : [xender web ui clone](der-web-ui-clone.vercel.app)
+You can easily test the app here : [xender web ui clone](https://xender-web-ui-clone.vercel.app)
 
 ### Note : 
 
